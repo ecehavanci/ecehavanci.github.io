@@ -1,43 +1,11 @@
 import { motion } from 'framer-motion';
 import useInternalizations from '../utils/hooks/useInternalizations';
+import { ExperienceItem } from '../types';
 
-const experiences = [
-    {
-        company: 'VESTEL',
-        role: 'Software Specialist',
-        duration: 'August 2024 - Present',
-        workPlace: 'Izmir, Turkey',
-        work: 'Hybrid',
-        description: ''
-    },
-    {
-        company: 'Izmir University of Economics',
-        role: 'Software and Automation Specialist',
-        duration: 'August 2023 - August 2024',
-        workPlace: 'Izmir, Turkey',
-        work: 'In Office',
-        description: 'Developed the MedSIS mobile app frontend using Flutter and built the web interface with React, utilizing tools like React Router, Axios, Bootstrap, and additional libraries for enhanced UI/UX. Created and maintained a Node.js + Express backend, integrating with MySQL via connection pooling and managing the server process using PM2. Set up and configured a Linux- based server, handling HTTPS, DNS, NGINX reverse proxying, and load balancing. Collaborated with students, administrative staff, and faculty to resolve issues related to IUE’s OASIS student information system.'
-    },
-    {
-        company: 'VESTEL',
-        role: 'Web Development Intern',
-        duration: 'August - September 2022',
-        workPlace: 'Manisa, Turkey',
-        work: 'In Office',
-        description: 'Developed web application with React & Redux to share helpful links within R&D team. Focused on integration with internal APIs and enhancing user experience through responsive design.'
-    },
-    {
-        company: 'GBOT Software Consultancy',
-        role: 'Mobile Development Intern',
-        duration: 'July - September 2021',
-        workPlace: 'Izmir, Turkey',
-        work: 'Remote',
-        description: 'Focused on mobile and web development, worked with Flutter and Dart, and contributed to app design with real data from Firebase. Collaborated with international clients to enhance user experience and interface design.'
-    }
-];
 
 export default function Experience() {
     const { i18n } = useInternalizations();
+    const experiences = i18n('experience.items') as Array<ExperienceItem>;
 
     return (
         <section id="experience" className="bg-cyber-bg text-white py-16 px-6">

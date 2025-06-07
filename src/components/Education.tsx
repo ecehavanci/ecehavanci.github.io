@@ -1,23 +1,11 @@
 import { motion } from 'framer-motion';
 import useInternalizations from '../utils/hooks/useInternalizations';
-
-const education = [
-    {
-        school: 'Izmir University Of Economics',
-        degree: 'BSc in Software Engineering',
-        duration: '2019 - 2023',
-        description: 'Undergraduate education focused on software development, algorithms and systems design.'
-    },
-    {
-        school: 'Bornova Koleji',
-        degree: 'Science Oriented High School',
-        duration: '2015 - 2019',
-        description: 'An intensive high school program with an emphasis on math and science.'
-    }
-];
+import { EducationItem } from '../types';
 
 export default function Education() {
     const { i18n } = useInternalizations();
+
+    const education = i18n('education.items') as Array<EducationItem>;
 
     return (
         <section id="education" className="bg-cyber-bg text-white py-16 px-4 md:px-8">

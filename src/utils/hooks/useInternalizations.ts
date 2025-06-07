@@ -4,34 +4,25 @@ import { translations } from "../../constants";
 import { RootState } from "../../store";
 import { LanguageType } from "../../types";
 
-interface ILangJson {
-    [key: string]: string | ILangJson;
-}
-
 export default function useInternalizations() {
     const lang = useSelector((state: RootState) => state.language.selectedLanguage);
 
-    const getNestedTranslation = (langJson: ILangJson, key: string): string => {
-        const keys = key.split('.');
-        let result: string | ILangJson = langJson;
+    interface ILangJson {
+        [key: string]: any;
+    }
 
-        for (const k of keys) {
-            if (typeof result === 'object' && k in result) {
-                result = result[k];
-            } else {
-                return '';
-            }
-        }
-
-        return typeof result === 'string' ? result : '';
+    const getNestedTranslation = (langJson: ILangJson, key: string): any => {
+        return key.split('.').reduce((obj, k) => (obj && obj[k] ? obj[k] : null), langJson) || null;
     };
 
     const i18n = useCallback(
-        (key: string): string => {
+        (key: string): any => {
             const langJson = translations[lang as LanguageType] as ILangJson;
-            const fallback = translations['en'] as ILangJson;
+            if (langJson) {
+                return getNestedTranslation(langJson, key);
+            }
 
-            return getNestedTranslation(langJson, key) || getNestedTranslation(fallback, key);
+            return getNestedTranslation(translations['en'] as ILangJson, key); // Fallback to English
         },
         [lang]
     );

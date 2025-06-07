@@ -1,21 +1,10 @@
 import { motion } from 'framer-motion';
 import useInternalizations from '../utils/hooks/useInternalizations';
-
-const projects = [
-    {
-        title: 'Proje 1',
-        description: 'Bu bir örnek projedir.',
-        link: 'https://github.com/kullanici/proje1'
-    },
-    {
-        title: 'Proje 2',
-        description: 'İkinci örnek proje açıklaması.',
-        link: 'https://github.com/kullanici/proje2'
-    }
-];
+import { ProjectItem } from '../types';
 
 export default function Projects() {
     const { i18n } = useInternalizations();
+    const projects = i18n('projects.items') as Array<ProjectItem>;
 
     return (
         <section id="projects" className="bg-cyber-bg text-white py-16 px-6">

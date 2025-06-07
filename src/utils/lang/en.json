@@ -6,7 +6,7 @@
         "downloadCVButton": "Download CV"
     },
     "footer": {
-        "copyright": "© 2024 All rights reserved."
+        "copyright": "All rights reserved."
     },
     "navbar": {
         "aboutButton": "About Me",
@@ -18,9 +18,66 @@
     },
     "experience": {
         "workhistory": "Work History",
-        "githublink": "See on Github"
+        "githublink": "See on Github",
+        "items": [
+            {
+                "company": "VESTEL",
+                "role": "Software Specialist",
+                "duration": "August 2024 - Present",
+                "workPlace": "Izmir, Turkey",
+                "work": "Hybrid",
+                "description": ""
+            },
+            {
+                "company": "Izmir University of Economics",
+                "role": "Software and Automation Specialist",
+                "duration": "August 2023 - August 2024",
+                "workPlace": "Izmir, Turkey",
+                "work": "In Office",
+                "description": "Developed the MedSIS mobile app frontend using Flutter and built the web interface with React, utilizing tools like React Router, Axios, Bootstrap, and additional libraries for enhanced UI/UX. Created and maintained a Node.js + Express backend, integrating with MySQL via connection pooling and managing the server process using PM2. Set up and configured a Linux- based server, handling HTTPS, DNS, NGINX reverse proxying, and load balancing. Collaborated with students, administrative staff, and faculty to resolve issues related to IUE’s OASIS student information system."
+            },
+            {
+                "company": "VESTEL",
+                "role": "Web Development Intern",
+                "duration": "August - September 2022",
+                "workPlace": "Manisa, Turkey",
+                "work": "In Office",
+                "description": "Developed web application with React & Redux to share helpful links within R&D team. Focused on integration with internal APIs and enhancing user experience through responsive design."
+            },
+            {
+                "company": " GBOT Software Consultancy",
+                "role": "Mobile Development Intern",
+                "duration": "July - September 2021",
+                "workPlace": "Izmir, Turkey",
+                "work": "Remote",
+                "description": "Focused on mobile and web development, worked with Flutter and Dart, and contributed to app design with real data from Firebase. Collaborated with international clients to enhance user experience and interface design."
+            }
+        ]
     },
     "education": {
-        "title": "Education"
+        "title": "Education",
+        "items": [
+            {
+                "school": "Izmir University Of Economics",
+                "degree": "BSc in Software Engineering",
+                "duration": "2019 - 2023",
+                "description": "Undergraduate education focused on software development, algorithms and systems design."
+            },
+            {
+                "school": "Bornova Koleji",
+                "degree": "Science Oriented High School",
+                "duration": "2015 - 2019",
+                "description": "An intensive high school program with an emphasis on math and science."
+            }
+        ]
+    },
+    "projects": {
+        "items": [
+            {
+                "title": "Portfolio Website",
+                "description": "A personal portfolio website showcasing my projects and skills, built with React, TypeScript, and Tailwind CSS.",
+                "link": "https://github.com/ecehavanci/ecehavanci.github.io"
+            }
+        ]
     }
 }

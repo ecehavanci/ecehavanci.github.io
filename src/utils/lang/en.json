@@ -2,7 +2,7 @@
     "hero": {
         "title": "Hi, I am",
         "description": "I am a frontend developer. I am interested in React, TypeScript and eye-catching interfaces. I am always chasing more.",
-        "projectsButton": "Projects",
+        "projectsButton": "See Github",
         "downloadCVButton": "Download CV"
     },
     "footer": {

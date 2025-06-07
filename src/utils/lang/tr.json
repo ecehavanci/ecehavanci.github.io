@@ -1,26 +1,83 @@
 {
     "hero": {
-        "title": "Hi, I am",
-        "description": "I am a frontend developer. I am interested in React, TypeScript and eye-catching interfaces. I am always chasing more.",
-        "projectsButton": "Projects",
-        "downloadCVButton": "Download CV"
+        "title": "Merhaba, ben",
+        "description": "Ben bir frontend geliştiricisiyim. React, TypeScript ve göz alıcı arayüzlerle ilgileniyorum. Her zaman daha fazlasını kovalıyorum.",
+        "projectsButton": "Github'ı Gör",
+        "downloadCVButton": "CV İndir"
     },
     "footer": {
-        "copyright": "© 2024 All rights reserved."
+        "copyright": "Tüm hakları saklıdır."
     },
     "navbar": {
-        "aboutButton": "About Me",
-        "projectsButton": "Projects",
-        "contactButton": "Contact"
+        "aboutButton": "Hakkımda",
+        "projectsButton": "Projeler",
+        "contactButton": "İletişim"
     },
     "about": {
-        "me": "Merhaba! Ben Ece. Frontend geliştirme konusunda tutkuluyum. React, TypeScript ve modern UI/UX yaklaşımları ile projeler geliştiriyorum.Cyberpunk tarzını, güzel görünen ama sade yapıları seviyorum."
+        "me": "Merhaba! Ben Ece. Frontend geliştirme konusunda tutkuluyum. React, TypeScript ve modern UI/UX yaklaşımları ile projeler geliştiriyorum. Cyberpunk tarzını, güzel görünen ama sade yapıları seviyorum."
     },
     "experience": {
-        "workhistory": "Work History",
-        "githublink": "See on Github"
+        "workhistory": "İş Geçmişi",
+        "githublink": "Github'da Gör",
+        "items": [
+            {
+                "company": "VESTEL",
+                "role": "Yazılım Uzmanı",
+                "duration": "Ağustos 2024 - Günümüz",
+                "workPlace": "İzmir, Türkiye",
+                "work": "Hibrit",
+                "description": ""
+            },
+            {
+                "company": "İzmir Ekonomi Üniversitesi",
+                "role": "Yazılım ve Otomasyon Uzmanı",
+                "duration": "Ağustos 2023 - Ağustos 2024",
+                "workPlace": "İzmir, Türkiye",
+                "work": "Ofiste",
+                "description": "MedSIS mobil uygulamasının frontend kısmını Flutter ile geliştirdim ve web arayüzünü React ile oluşturdum. React Router, Axios, Bootstrap ve UI/UX geliştirmeleri için ek kütüphaneler kullandım. Node.js + Express backend oluşturdum, MySQL bağlantı havuzlama ile entegre ettim ve PM2 ile sunucu sürecini yönettim. HTTPS, DNS, NGINX ters proxy ve yük dengeleme işlemlerini içeren Linux tabanlı bir sunucu kurdum ve yapılandırdım. IUE’nin OASIS öğrenci bilgi sistemi ile ilgili sorunları çözmek için öğrenciler, idari personel ve öğretim üyeleri ile iş birliği yaptım."
+            },
+            {
+                "company": "VESTEL",
+                "role": "Web Geliştirme Stajyeri",
+                "duration": "Ağustos - Eylül 2022",
+                "workPlace": "Manisa, Türkiye",
+                "work": "Ofiste",
+                "description": "R&D ekibi içinde faydalı bağlantıları paylaşmak için React & Redux ile bir web uygulaması geliştirdim. İç API'lerle entegrasyona odaklandım ve kullanıcı deneyimini geliştirmek için duyarlı tasarım üzerinde çalıştım."
+            },
+            {
+                "company": "GBOT Yazılım Danışmanlığı",
+                "role": "Mobil Geliştirme Stajyeri",
+                "duration": "Temmuz - Eylül 2021",
+                "workPlace": "İzmir, Türkiye",
+                "work": "Uzaktan",
+                "description": "Mobil ve web geliştirme üzerine çalıştım, Flutter ve Dart kullandım ve Firebase'den gerçek verilerle uygulama tasarımına katkıda bulundum. Uluslararası müşterilerle iş birliği yaparak kullanıcı deneyimini ve arayüz tasarımını geliştirdim."
+            }
+        ]
     },
     "education": {
-        "title": "Education"
+        "title": "Eğitim",
+        "items": [
+            {
+                "school": "İzmir Ekonomi Üniversitesi",
+                "degree": "Yazılım Mühendisliği Lisans",
+                "duration": "2019 - 2023",
+                "description": "Yazılım geliştirme, algoritmalar ve sistem tasarımı üzerine odaklanmış lisans eğitimi."
+            },
+            {
+                "school": "Bornova Koleji",
+                "degree": "Fen Ağırlıklı Lise",
+                "duration": "2015 - 2019",
+                "description": "Matematik ve fen ağırlıklı yoğun bir lise programı."
+            }
+        ]
+    },
+    "projects": {
+        "items": [
+            {
+                "title": "Portföy Web Sitesi",
+                "description": "Projelerimi ve becerilerimi sergileyen, React, TypeScript ve Tailwind CSS ile oluşturulmuş kişisel bir portföy web sitesi.",
+                "link": "https://github.com/ecehavanci/ecehavanci.github.io"
+            }
+        ]
     }
 }

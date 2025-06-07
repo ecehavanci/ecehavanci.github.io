@@ -4,8 +4,8 @@ import Contact from './components/Contact';
 import Education from './components/Education/Education';
 import Experience from './components/Experience/Experience';
 import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
+import Hero from './components/Hero/Hero';
+import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
 
 function App() {

@@ -1,6 +1,5 @@
-import EN from "./en.json";
-import TR from "./tr.json";
-import ES from "./es.json";
+import EN from "./utils/lang/en.json";
+import TR from "./utils/lang/tr.json";
 
 export const languages = [
     { name: 'English', value: 'en' },
@@ -11,5 +10,4 @@ export const languages = [
 export const translations = {
     en: EN,
     tr: TR,
-    es: ES,
 };

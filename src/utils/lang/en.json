@@ -1,3 +1,26 @@
 {
-    
+    "hero": {
+        "title": "Hi, I am",
+        "description": "I am a frontend developer. I am interested in React, TypeScript and eye-catching interfaces. I am always chasing more.",
+        "projectsButton": "Projects",
+        "downloadCVButton": "Download CV"
+    },
+    "footer": {
+        "copyright": "© 2024 All rights reserved."
+    },
+    "navbar": {
+        "aboutButton": "About Me",
+        "projectsButton": "Projects",
+        "contactButton": "Contact"
+    },
+    "about": {
+        "me": "Merhaba! Ben Ece. Frontend geliştirme konusunda tutkuluyum. React, TypeScript ve modern UI/UX yaklaşımları ile projeler geliştiriyorum.Cyberpunk tarzını, güzel görünen ama sade yapıları seviyorum."
+    },
+    "experience": {
+        "workhistory": "Work History",
+        "githublink": "See on Github"
+    },
+    "education": {
+        "title": "Education"
+    }
 }

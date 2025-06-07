@@ -1,12 +1,12 @@
 import './App.css';
-import About from './components/About';
+import About from './components/About/About';
 import Contact from './components/Contact';
-import Education from './components/Education';
-import Experience from './components/Experience';
+import Education from './components/Education/Education';
+import Experience from './components/Experience/Experience';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import Projects from './components/Projects';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Education />
         <Experience />
         <Projects />
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </>
     </div>

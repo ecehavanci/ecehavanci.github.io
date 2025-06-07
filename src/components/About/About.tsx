@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import useInternalizations from '../utils/hooks/useInternalizations';
+import useInternalizations from '../../utils/hooks/useInternalizations';
 
 export default function About() {
     const { i18n } = useInternalizations();

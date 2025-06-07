@@ -15,7 +15,7 @@ const experiences = [
         duration: 'August 2023 - August 2024',
         workPlace: 'Izmir, Turkey',
         work: 'In Office',
-        description: ''
+        description: 'Developed the MedSIS mobile app frontend using Flutter and built the web interface with React, utilizing tools like React Router, Axios, Bootstrap, and additional libraries for enhanced UI/UX. Created and maintained a Node.js + Express backend, integrating with MySQL via connection pooling and managing the server process using PM2. Set up and configured a Linux- based server, handling HTTPS, DNS, NGINX reverse proxying, and load balancing. Collaborated with students, administrative staff, and faculty to resolve issues related to IUE’s OASIS student information system.'
     },
     {
         company: 'VESTEL',

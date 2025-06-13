@@ -1,0 +1,1 @@
+For deployment run 'npm run build' & 'npm run deploy'

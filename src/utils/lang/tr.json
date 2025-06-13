@@ -1,7 +1,7 @@
 {
     "hero": {
         "title": "Merhaba, ben",
-        "description": "Ben bir frontend geliştiricisiyim. React, TypeScript ve göz alıcı arayüzlerle ilgileniyorum. Her zaman daha fazlasını kovalıyorum.",
+        "description": "Frontend geliştirme konusunda tutkuluyum. React, TypeScript ve modern UI/UX tasarımlarıyla göz alıcı ve işlevsel arayüzler oluşturuyorum. Sürekli öğrenmeye ve kendimi geliştirmeye odaklanıyorum.",
         "projectsButton": "Github'ı Gör",
         "downloadCVButton": "CV İndir"
     },
@@ -14,7 +14,7 @@
         "contactButton": "İletişim"
     },
     "about": {
-        "me": "Merhaba! Ben Ece. Frontend geliştirme konusunda tutkuluyum. React, TypeScript ve modern UI/UX yaklaşımları ile projeler geliştiriyorum. Cyberpunk tarzını, güzel görünen ama sade yapıları seviyorum."
+        "me": "Merhaba! Ben Ece. Frontend geliştirme konusunda tutkuluyum. React, TypeScript ve modern UI/UX yaklaşımları ile projeler geliştiriyorum.Cyberpunk tarzını, güzel görünen ama sade yapıları seviyorum."
     },
     "experience": {
         "workhistory": "İş Geçmişi",
@@ -23,10 +23,10 @@
             {
                 "company": "VESTEL",
                 "role": "Yazılım Uzmanı",
-                "duration": "Ağustos 2024 - Günümüz",
+                "duration": "Ağustos 2024 - Şimdi",
                 "workPlace": "İzmir, Türkiye",
                 "work": "Hibrit",
-                "description": ""
+                "description": "TypeScript, Redux ve CSS Modules kullanarak React uygulamaları geliştirdim ve bakımını sağladım. AWS SDK ve WebSocket iletişimi aracılığıyla frontend tarafında AWS IoT servislerini entegre ettim. Firebase Authentication ve Firestore kullanarak gerçek zamanlı veri senkronizasyonu sağlayan projeler geliştirdim. Yapay zekâ tabanlı sohbet botları ve beyaz eşya kullanıcılarına yönelik IoT panelleri gibi projelere katkıda bulundum. WebSocket ile Express.js ve Node.js backend'lerine bağlı frontend uygulamaları üzerinde çalıştım. Ayrıca Docker Compose kullanarak Overleaf Community Edition’ı sunucuda kurdum ve gerekli container ile paket yapılandırmalarını gerçekleştirdim."
             },
             {
                 "company": "İzmir Ekonomi Üniversitesi",

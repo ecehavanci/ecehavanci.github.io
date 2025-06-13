@@ -1,7 +1,7 @@
 {
     "hero": {
         "title": "Hi, I am",
-        "description": "I am a frontend developer. I am interested in React, TypeScript and eye-catching interfaces. I am always chasing more.",
+        "description": "I am passionate about frontend development. I create eye-catching and functional interfaces using React, TypeScript, and modern UI/UX designs. I am focused on continuous learning and self-improvement.",
         "projectsButton": "See Github",
         "downloadCVButton": "Download CV"
     },
@@ -14,7 +14,7 @@
         "contactButton": "Contact"
     },
     "about": {
-        "me": "Merhaba! Ben Ece. Frontend geliştirme konusunda tutkuluyum. React, TypeScript ve modern UI/UX yaklaşımları ile projeler geliştiriyorum.Cyberpunk tarzını, güzel görünen ama sade yapıları seviyorum."
+        "me": "Hello! I'm Ece. I'm passionate about frontend development. I create projects with React, TypeScript, and modern UI/UX approaches. I love the cyberpunk style and structures that look beautiful yet simple."
     },
     "experience": {
         "workhistory": "Work History",
@@ -26,7 +26,7 @@
                 "duration": "August 2024 - Present",
                 "workPlace": "Izmir, Turkey",
                 "work": "Hybrid",
-                "description": ""
+                "description": "Developed and maintained React applications using TypeScript, Redux, and CSS Modules. Integrated AWS IoT services with the frontend using the AWS SDK and WebSocket communication. Built Firebase-based projects with real-time data sync via Firebase Authentication and Firestore. Contributed to AI chatbot systems and IoT dashboards for smart appliance users. Worked on frontend apps connected to Express.js and Node.js backends through WebSocket. Also deployed and customized Overleaf Community Edition using Docker Compose, including essential container and package configurations."
             },
             {
                 "company": "Izmir University of Economics",
